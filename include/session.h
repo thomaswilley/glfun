@@ -10,9 +10,9 @@
 
 typedef struct session
 {
-		float acceleration;
-		float x_speed, y_speed, z_speed;
-		float base_speed;
+  float acceleration;
+  float x_speed, y_speed, z_speed;
+  float base_speed;
 } Session_t;
 
 #endif /* SESSION_H */

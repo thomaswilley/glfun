@@ -23,7 +23,8 @@
 #include "utils.h"
 
 GLfloat light_diffuse[] = {0.2, 0.1, 0.9, 1.0};  /* Red diffuse light. */
-GLfloat light_position[] = {1.0, 1.0, 1.0, 0.0};  /* Infinite light location. */
+//GLfloat light_position[] = {1.0, 1.0, 1.0, 0.0};  /* Infinite light location. */
+GLfloat light_position[] = {0.0, 1.0, -1.0, 0.1};
 GLfloat n[6][3] = {  /* Normals for the 6 faces of a cube. */
   {-1.0, 0.0, 0.0}, {0.0, 1.0, 0.0}, {1.0, 0.0, 0.0},
   {0.0, -1.0, 0.0}, {0.0, 0.0, 1.0}, {0.0, 0.0, -1.0} };
